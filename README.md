@@ -6,9 +6,9 @@
 </h3>
 
 <p align="center">
-	<a href="https://github.com/BomberFish/warp-mocha/stargazers"><img src="https://img.shields.io/github/stars/BomberFish/warp-mocha?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-	<a href="https://github.com/BomberFish/warp-mocha/issues"><img src="https://img.shields.io/github/issues/BomberFish/warp-mocha?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-	<a href="https://github.com/BomberFish/warp-mocha/contributors"><img src="https://img.shields.io/github/contributors/BomberFish/warp-mocha?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+	<a href="https://github.com/BomberFish/warp-mauve/stargazers"><img src="https://img.shields.io/github/stars/BomberFish/warp-mauve?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+	<a href="https://github.com/BomberFish/warp-mauve/issues"><img src="https://img.shields.io/github/issues/BomberFish/warp-mauve?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+	<a href="https://github.com/BomberFish/warp-mauve/contributors"><img src="https://img.shields.io/github/contributors/BomberFish/warp-mauve?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
 <p align="center">
@@ -50,10 +50,10 @@ WARP_THEMES_DIR="${XDG_DATA_HOME:-$HOME/.local/share}/warp-terminal/themes"
 
 ```console
 mkdir -p "$WARP_THEMES_DIR"
-curl --output-dir "$WARP_THEMES_DIR" -LO https://raw.githubusercontent.com/BomberFish/warp-mocha/main/dist/catppuccin_latte.yml
-curl --output-dir "$WARP_THEMES_DIR" -LO https://raw.githubusercontent.com/BomberFish/warp-mocha/main/dist/catppuccin_frappe.yml
-curl --output-dir "$WARP_THEMES_DIR" -LO https://raw.githubusercontent.com/BomberFish/warp-mocha/main/dist/catppuccin_macchiato.yml
-curl --output-dir "$WARP_THEMES_DIR" -LO https://raw.githubusercontent.com/BomberFish/warp-mocha/main/dist/catppuccin_mocha.yml
+curl --output-dir "$WARP_THEMES_DIR" -LO https://raw.githubusercontent.com/BomberFish/warp-mauve/main/dist/catppuccin_latte.yml
+curl --output-dir "$WARP_THEMES_DIR" -LO https://raw.githubusercontent.com/BomberFish/warp-mauve/main/dist/catppuccin_frappe.yml
+curl --output-dir "$WARP_THEMES_DIR" -LO https://raw.githubusercontent.com/BomberFish/warp-mauve/main/dist/catppuccin_macchiato.yml
+curl --output-dir "$WARP_THEMES_DIR" -LO https://raw.githubusercontent.com/BomberFish/warp-mauve/main/dist/catppuccin_mocha.yml
 ```
 
 2. Restart Warp to load the new themes
